@@ -1,0 +1,23 @@
+{
+  "name": "job-history",
+  "version": "1.0.0",
+  "description": "職務経歴書",
+  "scripts": {
+    "build": "node scripts/generate.js default",
+    "build:secret": "node scripts/generate.js secret",
+    "lint:md": "markdownlint-cli2 \"**/*.md\" \"!node_modules\"",
+    "lint:text": "textlint \"docs/**/*.md\" \"*.md\"",
+    "lint": "npm run lint:md && npm run lint:text",
+    "lint:fix": "npm run lint:md -- --fix && npm run lint:text -- --fix"
+  },
+  "keywords": [],
+  "author": "taichi",
+  "license": "MIT",
+  "devDependencies": {
+    "markdownlint-cli2": "^0.13.0",
+    "textlint": "^14.0.4",
+    "textlint-rule-preset-ja-technical-writing": "^10.0.1",
+    "textlint-rule-prh": "^6.0.0",
+    "textlint-filter-rule-comments": "^1.2.2"
+  }
+}
