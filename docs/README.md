@@ -17,11 +17,9 @@
 
 ## 資格
 
-<!-- textlint-disable ja-technical-writing/max-kanji-continuous-len -->
 |資格名|取得年月|
 |----|-------|
 |普通自動車運転免許(第一種)|2013年9月|
 |日本商工会議所簿記検定試験2級|2021年3月|
 |2級ファイナンシャル・プランニング技能士|2021年6月|
 |宅地建物取引士試験 合格|2021年12月|
-<!-- textlint-enable ja-technical-writing/max-kanji-continuous-len -->
