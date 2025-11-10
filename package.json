@@ -5,10 +5,10 @@
   "scripts": {
     "build": "node scripts/generate.js default",
     "build:secret": "node scripts/generate.js secret",
-  "lint:md": "markdownlint-cli2 \"docs/README.md\" \"!.github/chatmodes/**\"",
-  "lint:text": "textlint --config config/.textlintrc \"docs/README.md\"",
-  "lint": "npm run lint:md && npm run lint:text",
-  "lint:fix": "npm run lint:md -- --fix && npm run lint:text -- --config config/.textlintrc --fix"
+    "lint:md": "markdownlint-cli2 \"docs/README.md\" \"!.github/chatmodes/**\"",
+    "lint:text": "textlint --config config/.textlintrc \"docs/README.md\"",
+    "lint": "npm run lint:md && npm run lint:text",
+    "lint:fix": "npm run lint:md -- --fix && npm run lint:text -- --config config/.textlintrc --fix"
   },
   "keywords": [],
   "author": "taichi",
