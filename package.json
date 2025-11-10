@@ -5,7 +5,7 @@
   "scripts": {
     "build": "node scripts/generate.js default",
     "build:secret": "node scripts/generate.js secret",
-    "lint:md": "markdownlint-cli2 \"**/*.md\" \"!node_modules\"",
+  "lint:md": "markdownlint-cli2 \"**/*.md\" \"!node_modules\" \"!.github/chatmodes/**\"",
     "lint:text": "textlint \"docs/**/*.md\" \"*.md\"",
     "lint": "npm run lint:md && npm run lint:text",
     "lint:fix": "npm run lint:md -- --fix && npm run lint:text -- --fix"
